@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tuiter/screens/home.dart';
+import 'package:tuiter/screens/splash.dart';
 
-void main() {
+void main() async {
   runApp(const MyApp());
 }
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const Splash(),
     );
   }
 }
